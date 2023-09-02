@@ -659,15 +659,16 @@ section {
 --------------------------------------------------------------*/
 .facts .counters span {
   font-size: 48px;
-  display: block;
+  display: inline-block;
   color: #34b7a7;
 }
 
 .facts .counters p {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
