@@ -12,6 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background: url("../img/3299291.jpg");
+  background-size: cover;
 }
 
 a {
@@ -42,6 +44,18 @@ h6 {
     margin-top: 30px;
   }
 }
+
+.pattern {
+position: fixed;
+width: 100vw;
+height: 100vh;
+
+background-color: #e5e5f7;
+opacity: 0.7;
+background-image: radial-gradient(#f745f0 0.45px, #e5e5f7 0.45px);
+background-size: 9px 9px;
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
